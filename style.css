@@ -1,0 +1,42 @@
+body {
+    margin: 0px;
+    text-align: center;
+}
+.menubar {
+    font-family: Verdana;
+    position: fixed;
+    background: white;
+    width: 100%;
+    top: 0px;
+    z-index: 10;
+    cursor: pointer;
+}
+.links {
+    display: inline;
+    color: darkslateblue;
+    padding-left: 33px;
+    padding-right: 25px;
+    font-family: fantasy;
+    font-size: 20px; 
+}
+.line {
+    height: 6px;
+    background-color: deeppink;
+    width: 70px;
+    margin: 8px auto;
+}
+img {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+}
+html {
+    background: linear-gradient( #f5226f 0%,#a4f522 100%);
+}
+#myCarousel {
+    background-color: orange;
+}
+#myCarousel img {
+    height: 300px;
+    margin-top: 35px;
+}

@@ -1,0 +1,103 @@
+<html>
+    <head>
+        <title> Arnav's Photo Gallery </title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <ul class="menubar">
+            <li class="links"><a href="#Home">Home</a></li>
+            <li class="links"><a href="#GridView">Grid View</a></li>
+            <li class="links"><a href="#SlideView">Slide View</a></li>
+        </ul>
+            <h1> Photo Gallery </h1>
+            <div class="line"></div>
+            <br>
+            <hr>
+            <section id="Home">
+                <h2> About My Photo Gallery </h2>
+                <div class="line"></div>
+                <p> My name is Arnav. This is my photo gallery. The photos are displayed in 2 ways: Grid View and Slide view. The grid view will show 5 of the 10 images on this website in a straight line. On the other hand, the slide view will show the rest of the images, and on the click of any arrow, you will see the next or previous image. I hope you like my photo gallery, and tell me how I can improve it. Have fun! </p>
+            </section>
+            <hr>
+            <section id="GridView">
+                <h2> Images </h2>
+                <div class="line"></div>
+                <br>
+                <span id="FirstRow">
+                    <img src="https://lirp-cdn.multiscreensite.com/md/unsplash/dms3rep/multi/opt/photo-1529778873920-4da4926a72c2-640w.jpg">
+                    <img src="https://icatcare.org/app/uploads/2018/07/Helping-your-new-cat-or-kitten-settle-in-1.png">
+                    <img src="https://www.veterinarypracticenews.com/wp-content/uploads/2019/10/bigstock-Four-Kittens-On-A-White-Backgr-2730282.jpg">
+                    <img src="https://humaneanimalrescue.org/wp-content/uploads/2019/06/kit-nap-kitten-copy.jpg">
+                </span>
+                <div>
+                    <span id="SecondRow">
+                        <img src="https://cdn.mos.cms.futurecdn.net/vEcELHdn998wRTcCzqV5m9.jpg">
+                        <img src="https://c.s-microsoft.com/en-us/CMSImages/1920_Panel1_Hero_Laptop.jpg?version=090f3049-8032-1102-e65b-498904a634e1">
+                        <img src="https://m.media-amazon.com/images/I/61i9Azkzh3L._AC_UL320_.jpg">
+                        <img src="https://target.scene7.com/is/image/Target//GUEST_f6aa6667-c86b-4a71-8f8d-1379f078b6bc">
+                    </span>
+                </div>    
+            </section>
+            <hr>
+            <section id="SlideView">
+                <h2> Images </h2>
+                <div class="line"></div>
+                <br>
+                <div class="container">
+                <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="item active">
+                        <center>
+                        <img src="https://lirp-cdn.multiscreensite.com/md/unsplash/dms3rep/multi/opt/photo-1529778873920-4da4926a72c2-640w.jpg">
+                        </center>
+                        </div>
+                        <div class="item">
+                        <center>
+                        <img src="https://icatcare.org/app/uploads/2018/07/Helping-your-new-cat-or-kitten-settle-in-1.png">
+                        </center>
+                        </div>
+                        <div class="item">
+                        <center>
+                        <img src="https://www.veterinarypracticenews.com/wp-content/uploads/2019/10/bigstock-Four-Kittens-On-A-White-Backgr-2730282.jpg">
+                        </center>
+                        </div>
+                        <div class="item">
+                        <center>
+                        <img src="https://humaneanimalrescue.org/wp-content/uploads/2019/06/kit-nap-kitten-copy.jpg">
+                        </center>
+                        </div>
+                        <div class="item">
+                        <center>
+                        <img src="https://cdn.mos.cms.futurecdn.net/vEcELHdn998wRTcCzqV5m9.jpg">
+                        </center>
+                        </div>
+                        <div class="item">
+                        <center>
+                        <img src="https://c.s-microsoft.com/en-us/CMSImages/1920_Panel1_Hero_Laptop.jpg?version=090f3049-8032-1102-e65b-498904a634e1">
+                        </center>
+                        </div>
+                        <div class="item">
+                        <center>
+                        <img src="https://m.media-amazon.com/images/I/61i9Azkzh3L._AC_UL320_.jpg">
+                        </center>
+                        </div>
+                        <div class="item">
+                        <center>
+                        <img src="https://target.scene7.com/is/image/Target//GUEST_f6aa6667-c86b-4a71-8f8d-1379f078b6bc">
+                        </center>
+                        </div>
+                    </div>
+                    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                    </a>
+                    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                    </a>
+                </div>
+                </div>
+            </section>
+        </body>
+    </html>
